@@ -1,0 +1,1 @@
+Select-String -Path $PROFILE -Pattern "Set-Alias "
