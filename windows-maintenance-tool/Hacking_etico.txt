@@ -1,0 +1,5 @@
+1. Instalar el programa Nmap (Nmap.org) [Nmap GUI para noobies]
+2. En target meter la ip a la que penetrar
+3. Escanear. Los resultados son puertos abiertos a los que se podría acceder
+¿? 4. Instalar metasploit (metasploit.com) y acceder al puerto con su respectiva vulnerabilidad
+5. Instalar hydra brute force (vanhauser-thc/thc-hydra en github)

@@ -1,0 +1,37 @@
+=== RAM
+Paso 1:
+Monitor de recursos/Memoria -> comprobar memoria que se usa y la que está en espera
+RAMMap/Empty/Empty Standby List -> liberar memoria y optimizar
+
+Paso 2:
+Configuración/Accesibilidad/Desactivar mostrar animaciones en Windows y transparencia
+
+En W11: 
+1. Start > Settings > Accessibility > Visual effects > Toggle Animation > off
+2. Windows Key + R, type in SystemPropertiesPerformance.exe
+
+Paso 3:
+Task Manager/Inicio/Deshabilitar aplicaciones que no se usan (o tienen un gran impacto)
+
+Paso 4:
+Ajustar apariencia y rendimiento/Ajustar para obtener mejor rendimiento/Activar suavizar borde para fuentes (para que la letra no se vea fea)
+
+=== ESPACIO/RAM
+Paso 5:
+Instalamos revouninstaller y lo ejecutamos para desinstalar un programa. Durante el proceso de desinstalación, seleccionaremos todos los archivos que nos sugiera para no dejar leftover files.
+
+Otra opción:
+Configuración/Aplicaciones/Desinstalar las que no use o no sean necesarias para el sistema
+https://www.geeknetic.es/Guia/2260/Como-Eliminar-los-Archivos-Temporales-en-Windows-11.html
+
+=== BATERIA/ANCHO DE BANDA
+Paso 6:
+Configuración/Aplicaciones/Reproducción de vídeo/Activar resolución inferior
+
+=== ANCHO DE BANDA
+Paso 7:
+Configuración/Aplicaciones/Mapas sin conexión/Desactivar actualizar mapas automáticamente
+
+=== BATERIA/ANCHO DE BANDA/RAM
+Paso 8:
+Configuración/Privacidad/Aplicaciones en segundo plano/Desactivar todas (o las que queramos)

@@ -1,0 +1,39 @@
+### Soporte HP actualizar
+-- https://support.hp.com/es-es/help/hp-support-assistant
+-- https://www.intel.la/content/www/xl/es/support/detect.html
+-- Generic HP chipset driver (si los otros dos no encuentran)
+
+================================================================
+
+### Necesario cada cierto tiempo
+-- Revisar Windows Update
+-- Desfragmentar Unidades
+-- Liberador de espacio en disco (Explorador --> clic derecho en disco C --> propiedades --> general --> Liberar espacio --> Limpiar archivos del sistema)
+-- Labores de Mantenimiento en el panel de control
+-- Pasar el Windows defender
+-- Revisar actividad del admin de tareas
+-- Al acabar reinicio
+
+================================================================
+
+### Comandos esenciales
+-- Desde "ejecutar":
+netplwiz -> administrar usuarios
+mdsched -> comprobar problemas de memoria
+
+-- Desde cmd:
+chkdsk /f -> (fix) ver que todo en el disco está donde debe estar
+chkdsk /r -> (repair) lo mismo que fix pero busca cosas incorrectas e intenta recuperar otras
+sfc /scannow -> busca dentro de la información CRÍTICA y SENSIBLE errores
+dism /Online /Cleanup-image / Restorehealth -> si el sfc falla, windows se nota inestable/corrupto, éste buscará los errores e intentará resolverlos
+Winget upgrade --all -> ver que TODO está actualizado (actualizaciones necesarias + opcionales)
+
+-- Miscelanea:
+Dar reiniciar + shift -> pantalla azul con opciones
+
+================================================================
+
+### Herramientas para proteger de virus (en orden)
+-- Norton Power Eraser -> antivirus
+-- HitmanPro -> antivirus
+-- Kaspersky Virus Removal Tool
